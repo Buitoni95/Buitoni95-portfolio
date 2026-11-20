@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfólio de Victor Buitoni, Engenheiro de Dados em transição de Business Intelligence para Engenharia de Dados Analítica.">
+  <title>Victor Buitoni | Engenheiro de Dados</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="brand" href="#top" aria-label="Ir para o início">
+        <span class="brand-mark">VB</span>
+        <span>Victor Buitoni</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#sobre" data-i18n="navAbout">Sobre</a>
+        <a href="#competencias" data-i18n="navSkills">Competências</a>
+        <a href="#projetos" data-i18n="navProjects">Projetos</a>
+        <a href="#contato" data-i18n="navContact">Contato</a>
+        <button class="language-toggle" type="button" aria-label="Mudar idioma">EN</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-grid container">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="heroEyebrow">Business Intelligence &amp; Engenharia de Dados</p>
+          <h1 data-i18n="heroTitle">Transformo dados em soluções confiáveis e orientadas a resultado.</h1>
+          <p class="hero-description" data-i18n="heroDescription">
+            Sou formado em Ciência da Computação e pós-graduado em Engenharia de Dados.
+            Atualmente atuo com Business Intelligence na área de garantias e construo minha
+            transição para a Engenharia de Dados Analítica.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projetos" data-i18n="viewProjects">Ver projetos</a>
+            <a class="button button-secondary" href="https://www.linkedin.com/in/victor-buitoni-07173922b/" target="_blank" rel="noreferrer" data-i18n="linkedinProfile">Meu LinkedIn</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="portrait">
+            <span>VB</span>
+          </div>
+          <div class="float-card float-card-one"><b>SQL</b><small>Modelagem</small></div>
+          <div class="float-card float-card-two"><b>PySpark</b><small>Processamento</small></div>
+          <div class="float-card float-card-three"><b>Power BI</b><small>Analytics</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="container split-layout">
+        <div>
+          <p class="section-kicker" data-i18n="aboutKicker">Sobre mim</p>
+          <h2 data-i18n="aboutTitle">Entre a visão de negócio e a engenharia</h2>
+        </div>
+        <div class="about-copy">
+          <p data-i18n="aboutParagraph1">
+            Minha trajetória combina Ciência da Computação, pós-graduação em Engenharia de Dados
+            e experiência prática em BI, administração pública, segurança e setor bancário.
+          </p>
+          <p data-i18n="aboutParagraph2">
+            Hoje trabalho com estruturação, modelagem, tratamento e análise de dados para atender
+            necessidades do negócio. Busco ampliar minha atuação em pipelines, processamento distribuído,
+            arquiteturas medallion e plataformas de dados escaláveis.
+          </p>
+          <div class="about-links">
+            <a href="mailto:vtr.buitoni@gmail.com" data-i18n="emailMe">Enviar e-mail</a>
+            <a href="https://github.com/Buitoni95" target="_blank" rel="noreferrer" data-i18n="githubProfile">Ver GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="competencias">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker" data-i18n="skillsKicker">Competências técnicas</p>
+            <h2 data-i18n="skillsTitle">Tecnologias que uso e estudo</h2>
+          </div>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-number">01</span>
+            <h3 data-i18n="skillDataTitle">Dados e consultas</h3>
+            <p data-i18n="skillDataText">Consulta, modelagem, transformação e qualidade de dados.</p>
+            <div class="tag-list"><span>SQL</span><span>Python</span><span>R</span><span>SAS</span><span>PostgreSQL</span></div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-number">02</span>
+            <h3 data-i18n="skillEngineeringTitle">Engenharia de dados</h3>
+            <p data-i18n="skillEngineeringText">Construção de bases, pipelines e arquiteturas analíticas.</p>
+            <div class="tag-list"><span>Apache Spark</span><span>PySpark</span><span>Databricks</span><span>dbt</span><span>Airbyte</span></div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-number">03</span>
+            <h3 data-i18n="skillPlatformTitle">Plataformas e nuvem</h3>
+            <p data-i18n="skillPlatformText">Ambientes distribuídos, containers e infraestrutura como código.</p>
+            <div class="tag-list"><span>AWS</span><span>Azure</span><span>Delta Lake</span><span>Docker</span><span>Terraform</span></div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-number">04</span>
+            <h3 data-i18n="skillAnalyticsTitle">Analytics e ML</h3>
+            <p data-i18n="skillAnalyticsText">Indicadores, visualização e experimentação com aprendizado de máquina.</p>
+            <div class="tag-list"><span>Power BI</span><span>Scikit-learn</span><span>Azure ML</span><span>Git</span><span>GitHub</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projetos">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker" data-i18n="projectsKicker">Projetos</p>
+            <h2 data-i18n="projectsTitle">Da análise ao deploy</h2>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card project-featured">
+            <div class="project-cover cover-engineering">
+              <div class="pipeline">
+                <span>Ingestão</span><i></i><span>Transformação</span><i></i><span>Analytics</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <p class="project-label" data-i18n="projectEngineeringLabel">Engenharia de dados</p>
+              <h3>Data Engineer</h3>
+              <p data-i18n="projectEngineeringDescription">Laboratório inicial para estudo de pipelines e infraestrutura de dados, com Docker Compose e documentação de ambiente.</p>
+              <div class="project-tags"><span>Docker</span><span>Airbyte</span><span>Data pipelines</span></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-cover cover-ml">
+              <div class="node-grid"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            </div>
+            <div class="project-body">
+              <p class="project-label" data-i18n="projectMLLabel">Machine Learning</p>
+              <h3>Machine Learning</h3>
+              <p data-i18n="projectMLDescription">Coleção de experimentos sobre classificação, recomendação, NLP, otimização e métricas de avaliação.</p>
+              <div class="project-tags"><span>Python</span><span>Scikit-learn</span><span>NLP</span></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-cover cover-mlo">
+              <div class="terminal"><b>$</b><span>train_model.py</span><small>deploy ready</small></div>
+            </div>
+            <div class="project-body">
+              <p class="project-label" data-i18n="projectMLOpsLabel">MLOps</p>
+              <h3>MLOps Deploy</h3>
+              <p data-i18n="projectMLOpsDescription">Estrutura baseada em projeto reproducível para preparação de dados, treinamento, avaliação e organização de modelos.</p>
+              <div class="project-tags"><span>Python</span><span>MLOps</span><span>Makefile</span></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-cover cover-data">
+              <div class="chart-bars"><span></span><span></span><span></span><span></span><span></span></div>
+            </div>
+            <div class="project-body">
+              <p class="project-label" data-i18n="projectDataLabel">Análise de dados</p>
+              <h3>Data Science</h3>
+              <p data-i18n="projectDataDescription">Exercícios práticos com estatística, agrupamentos, tratamento de dados, visualização e análise exploratória.</p>
+              <div class="project-tags"><span>Pandas</span><span>Jupyter</span><span>Estatística</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contato">
+      <div class="container contact-grid">
+        <div>
+          <p class="section-kicker" data-i18n="contactKicker">Contato</p>
+          <h2 data-i18n="contactTitle">Vamos conversar sobre dados?</h2>
+        </div>
+        <a class="contact-button" href="mailto:vtr.buitoni@gmail.com">
+          <span data-i18n="contactButton">Enviar uma mensagem</span>
+          <b>↗</b>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Victor Buitoni</p>
+      <div class="footer-links">
+        <a href="https://github.com/Buitoni95" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/victor-buitoni-07173922b/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="mailto:vtr.buitoni@gmail.com">E-mail</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
