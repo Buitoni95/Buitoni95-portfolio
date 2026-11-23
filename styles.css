@@ -102,6 +102,7 @@ a { color: inherit; text-decoration: none; }
 .float-card-one { top:30px; right:10px; }
 .float-card-two { bottom:70px; left:-10px; }
 .float-card-three { bottom:25px; right:20px; }
+.float-card-four { top:70px; left:0; }
 
 .section { padding: 100px 0; }
 .section-muted { background: var(--muted); }
@@ -138,20 +139,10 @@ a { color: inherit; text-decoration: none; }
 .project-featured .project-cover { min-height:330px; }
 .project-cover { height:220px; position:relative; display:grid; place-items:center; overflow:hidden; }
 .cover-engineering { background:linear-gradient(135deg,#10243e,#1d65bd); }
-.cover-ml { background:linear-gradient(135deg,#e9f3ff,#b7d4f7); }
-.cover-mlo { background:linear-gradient(135deg,#0b1f34,#1c3f60); }
-.cover-data { background:linear-gradient(135deg,#edf7f4,#bdded4); }
+.cover-platform { background:linear-gradient(135deg,#0d3b46,#17806f); }
 .pipeline { display:flex; align-items:center; color:#fff; font-size:12px; }
 .pipeline span { border:1px solid rgba(255,255,255,.32); background:rgba(255,255,255,.08); border-radius:6px; padding:10px 12px; }
 .pipeline i { width:25px; height:1px; background:#78b7ff; }
-.node-grid { width:210px; display:grid; grid-template-columns:repeat(3,1fr); gap:28px; transform:rotate(-8deg); }
-.node-grid span { width:38px; height:38px; border-radius:50%; background:#2f70bd; box-shadow:32px 35px 0 #78aee2,-20px 55px 0 #b0cdec; }
-.terminal { width:270px; border:1px solid rgba(125,211,252,.28); border-radius:8px; padding:30px; background:#081829; color:#cfe9ff; font-family:monospace; }
-.terminal b { color:#4ade80; margin-right:8px; }
-.terminal small { display:block; margin-top:24px; color:#69b4ff; }
-.chart-bars { height:135px; display:flex; align-items:end; gap:12px; }
-.chart-bars span { width:30px; border-radius:5px 5px 0 0; background:#2c8069; }
-.chart-bars span:nth-child(1){height:45px}.chart-bars span:nth-child(2){height:80px}.chart-bars span:nth-child(3){height:58px}.chart-bars span:nth-child(4){height:115px}.chart-bars span:nth-child(5){height:92px}
 .project-body { padding:28px; }
 .project-label { margin:0 0 8px; color:var(--blue); text-transform:uppercase; letter-spacing:.12em; font-size:11px; font-weight:800; }
 .project-body h3 { margin:0 0 10px; font-family:"Manrope",sans-serif; font-size:24px; }

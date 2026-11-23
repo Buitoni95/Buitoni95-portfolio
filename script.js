@@ -4,6 +4,9 @@ const translations = {
     heroEyebrow: "Business Intelligence & Data Engineering",
     heroTitle: "I turn data into reliable solutions that drive results.",
     heroDescription: "I hold a degree in Computer Science and a postgraduate degree in Data Engineering. I currently work with Business Intelligence in the guarantees area and am building my transition to Analytical Data Engineering.",
+    heroSkillIntegration: "Integration", heroSkillProcessing: "Processing",
+    heroSkillStorage: "Storage", heroSkillLargeVolumes: "Large volumes",
+    heroSkillData: "of data",
     viewProjects: "View projects", linkedinProfile: "My LinkedIn",
     aboutKicker: "About me", aboutTitle: "Between business vision and engineering",
     aboutParagraph1: "My career combines Computer Science, a postgraduate degree in Data Engineering, and practical experience in BI, public administration, security, and banking.",
@@ -14,11 +17,12 @@ const translations = {
     skillEngineeringTitle: "Data engineering", skillEngineeringText: "Building data foundations, pipelines, and analytical architectures.",
     skillPlatformTitle: "Platforms and cloud", skillPlatformText: "Distributed environments, containers, and infrastructure as code.",
     skillAnalyticsTitle: "Analytics and ML", skillAnalyticsText: "Metrics, visualization, and machine learning experiments.",
-    projectsKicker: "Projects", projectsTitle: "From analysis to deployment",
-    projectEngineeringLabel: "Data engineering", projectEngineeringDescription: "An initial laboratory for studying data pipelines and infrastructure, with Docker Compose and environment documentation.",
-    projectMLLabel: "Machine Learning", projectMLDescription: "A collection of experiments covering classification, recommendation, NLP, optimization, and evaluation metrics.",
-    projectMLOpsLabel: "MLOps", projectMLOpsDescription: "A reproducible project structure for data preparation, model training, evaluation, and model organization.",
-    projectDataLabel: "Data analysis", projectDataDescription: "Practical exercises covering statistics, clustering, data cleaning, visualization, and exploratory analysis.",
+    projectsKicker: "Projects", projectsTitle: "Data engineering projects",
+    projectModelingTag: "Data modeling",
+    projectEngineeringLabel: "Data engineering", projectEngineeringDescription: "An initial study environment with Docker Compose and PostgreSQL, accompanied by architecture and data modeling documentation.",
+    projectEngineeringRepository: "View Data Engineer repository ↗",
+    projectPlatformLabel: "Data platform", projectPlatformDescription: "An e-commerce data platform in development, with batch and CDC ingestion, lakehouse processing, analytical transformation, and orchestration.",
+    projectPlatformRepository: "View Data Platform repository ↗",
     contactKicker: "Contact", contactTitle: "Let's talk about data?", contactButton: "Send a message"
   }
 };
